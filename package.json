@@ -1,7 +1,7 @@
 {
     "name": "pino-password",
     "description": "Node JS password generator that generates encrypted passwords from username.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "keywords": [
         "js",
         "nodejs",
@@ -25,7 +25,7 @@
         "node": ">=8"
     },
     "scripts": {
-        "test": "make test"
+        "test": "node test/test.js"
     },
     "main": "index.js"
 }
