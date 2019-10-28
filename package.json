@@ -1,0 +1,19 @@
+{
+    "name": "Password Generator",
+    "description": "Node JS password generator that generates encrypted passwords from username.",
+    "version": "0.1",
+    "keywords": [
+        "js",
+        "nodejs",
+        "password",
+        "encryption"
+    ],
+    "maintainers": [{
+        "name": "Piepin",
+        "email": "piepin@gmail.com"
+    }],
+    "dependencies": {
+        "dotenv": "^2.2.1",
+        "md5": "^8.2.0"
+    }
+}
