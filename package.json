@@ -1,12 +1,13 @@
 {
     "name": "pino-password",
     "description": "Node JS password generator that generates encrypted passwords from username.",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "keywords": [
         "js",
         "nodejs",
         "password",
-        "encryption"
+        "encryption",
+        "indonesia"
     ],
     "maintainers": [{
         "name": "Piepin",
@@ -15,5 +16,16 @@
     "dependencies": {
         "dotenv": "^2.2.1",
         "md5": "^8.2.0"
-    }
+    },
+    "devDependencies": {
+        "dotenv": "^2.2.1",
+        "md5": "^8.2.0"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "main": "index.js"
 }

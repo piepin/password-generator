@@ -5,9 +5,9 @@ This module will generate encrypted password from username, so the application c
 
 This will be very useful for checking passwords in APIs that require fast access.
 
-Usage:
+#### Usage:
 ```javascript
-var password = require('./password');
+var password = require('password');
 
 var pass = new password();
 

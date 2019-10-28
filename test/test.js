@@ -1,4 +1,4 @@
-var password = require('./password');
+var password = require('password');
 
 var pass = new password();
 
