@@ -1,7 +1,7 @@
 {
     "name": "pino-password",
-    "description": "Node JS password generator that generates encrypted passwords from username.",
-    "version": "1.0.6",
+    "description": "Node JS password generator that generates encrypted passwords/token/api-key from username.",
+    "version": "1.0.7",
     "keywords": [
         "js",
         "nodejs",
@@ -28,6 +28,10 @@
     },
     "scripts": {
         "test": "node test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piepin/password-generator.git"
     },
     "main": "index.js"
 }
