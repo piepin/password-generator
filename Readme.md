@@ -1,6 +1,8 @@
 # Password Generator for NodeJS
 ### Generates encrypted passwords from username.
 
+[![npm version](https://badge.fury.io/js/pino-password.svg)](https://badge.fury.io/js/pino-password) [![depedencies](https://david-dm.org/piepin/password-generator.svg)](https://github.com/piepin/password-generator) [![HitCount](http://hits.dwyl.com/piepin/password-generator.svg)](http://hits.dwyl.com/piepin/password-generator})
+
 This module will generate encrypted password from an username, so the application can verify password without run any query to the database, just compare username and encrypted password.
 
 This password generator use simple method: `md5` with secret-key stored in `.env` file.
